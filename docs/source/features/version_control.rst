@@ -67,6 +67,7 @@ through `the web page <https://gas.graviti.cn/>`_.
    ACCESS_KEY = "Accesskey-*****"
    gas = GAS(ACCESS_KEY)
 
+   # dataset is the original dataset.
    dataset_client = gas.create_dataset(dataset.name)
 
    dataset_client.create_draft("draft-1")
